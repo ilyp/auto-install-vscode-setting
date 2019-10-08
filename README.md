@@ -15,7 +15,7 @@ ICE IDE 套件基于 VSCode 开发，首先需要安装 VSCode。
 剩下的你只需要执行下面命令即可，后续的事情，我们的一键安装脚本会帮你搞定：
 
 ```code
-file=$(mktemp); curl -s https://github.com/yuanliang/my-vscode-setting/raw/master/setup.sh > $file; sh $file; rm $file
+file=$(mktemp); curl -s https://raw.githubusercontent.com/yuanliang/my-vscode-setting/master/setup.sh > $file; sh $file; rm $file
 ```
 
 
