@@ -14,7 +14,7 @@ Auto Install VS Code Setting 基于 VSCode，首先需要安装 VSCode。
 
 剩下的你只需要执行下面命令即可，后续的事情，我们的一键安装脚本会帮你搞定：
 
-```code
+```shell
 file=$(mktemp); curl -s https://raw.githubusercontent.com/yuanliang/auto-install-vscode-setting/master/setup.sh > $file; sh $file; rm $file
 ```
 
