@@ -2,7 +2,7 @@
 
 ## 第一步：安装 VSCode 并将 code 命令写入命令行
 
-ICE IDE 套件基于 VSCode 开发，首先需要安装 VSCode。
+Auto Install VS Code Setting 基于 VSCode，首先需要安装 VSCode。
 
 打开 VSCode 官方网站：<https://code.visualstudio.com> 然后点击下载最新版的 Stable 稳定版。
 
@@ -15,7 +15,7 @@ ICE IDE 套件基于 VSCode 开发，首先需要安装 VSCode。
 剩下的你只需要执行下面命令即可，后续的事情，我们的一键安装脚本会帮你搞定：
 
 ```code
-file=$(mktemp); curl -s https://raw.githubusercontent.com/yuanliang/my-vscode-setting/master/setup.sh > $file; sh $file; rm $file
+file=$(mktemp); curl -s https://raw.githubusercontent.com/yuanliang/auto-install-vscode-setting/master/setup.sh > $file; sh $file; rm $file
 ```
 
 

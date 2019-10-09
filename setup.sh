@@ -32,10 +32,6 @@ echo "${GREEN}第三步：安装 ICE IDE Helper${GRAY}"
 echo "* 现在我们正在安装 ICE 官方开发的 IDE 辅助插件"
 echo "* 这里包含了自动补全属性、常用代码片段等辅助功能，未来会升级解锁更多功能哦"
 
-# 安装 ICE IDE Helper
-curl -o "./ice-ide-helper.vsix" "http://gitlab.alibaba-inc.com/ice/ice-ide/raw/master/extension/ice-ide-helper/ice-ide-helper.vsix" && code --install-extension ./ice-ide-helper.vsix
-rm -rf ./ice-ide-helper.vsix
-
 echo "${GREEN}第四步：写入常用配置信息${GRAY}"
 echo "* 下面我们将会写入一些配置信息"
 echo "* 这些配置可以帮你自动格式化代码、自动配置换行空格等等"
